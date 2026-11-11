@@ -21,6 +21,20 @@
 
 > 🤝 **New: [Open Duet](https://github.com/Anil-matcha/open-duet)** — open-source, self-hosted AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act. An alternative to Claude Duet, OpenAI Dots, and Manus Cue. [Star it on GitHub →](https://github.com/Anil-matcha/open-duet)
 
+## 🔌 Claude Code Plugin
+
+Generate images, video, audio and lip sync straight from Claude Code with the bundled plugin (a `generate-media` skill plus the hosted MuAPI MCP server).
+
+```bash
+export MUAPI_API_KEY=your_key   # from https://muapi.ai
+claude plugin marketplace add bostasianturi-ai/Open-Generative-AI
+claude plugin install open-generative-ai@open-generative-ai
+```
+
+Or in one step inside Claude Code: `/plugin install open-generative-ai --marketplace bostasianturi-ai/Open-Generative-AI`
+
+The model catalog the skill uses is generated from the app's models: run `node scripts/build-plugin-catalog.mjs` after changing `packages/studio/src/models.js`.
+
 ## 💰 Turn This Into Your Own Product — White Label & Resell
 
 Want to launch this as **your own branded AI studio** and charge your own customers for it? [MuAPI White Label](https://muapi.ai/white-label?utm_source=github&utm_medium=readme&utm_campaign=open-generative-ai) lets you spin up a fully white-labeled version of this app — your logo, your colors, your custom domain, your own pricing — with zero infra to manage. You keep the markup on every generation; MuAPI handles the models, the queue, and the billing plumbing underneath.

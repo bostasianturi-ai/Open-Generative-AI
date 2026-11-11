@@ -1,0 +1,19 @@
+{
+  "name": "open-generative-ai",
+  "owner": {
+    "name": "bostasianturi-ai"
+  },
+  "metadata": {
+    "description": "Claude Code plugins from Open Generative AI: generate images, video, audio and lip sync with 600+ models through MuAPI."
+  },
+  "plugins": [
+    {
+      "name": "open-generative-ai",
+      "source": "./plugins/open-generative-ai",
+      "description": "Generate AI images, videos, audio and lip sync from Claude Code using MuAPI models (FLUX, Nano Banana, Kling, Seedance, Veo and more).",
+      "version": "1.0.0",
+      "category": "media",
+      "keywords": ["image-generation", "video-generation", "muapi", "generative-ai"]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "open-generative-ai",
+  "description": "Generate AI images, videos, audio and lip sync from Claude Code using MuAPI models.",
+  "version": "1.0.0",
+  "author": {
+    "name": "bostasianturi-ai"
+  },
+  "homepage": "https://github.com/bostasianturi-ai/Open-Generative-AI",
+  "repository": "https://github.com/bostasianturi-ai/Open-Generative-AI",
+  "license": "MIT",
+  "keywords": ["image-generation", "video-generation", "muapi", "generative-ai"]
+}
